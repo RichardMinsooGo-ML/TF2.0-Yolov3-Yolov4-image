@@ -49,15 +49,12 @@ I uploaded weigts for the below models
 - [x] yolo_v4_voc
 - [x] yolo_v4_voc_tiny
 
-## Pretrained weights
-
-You can download darknet weights from my google drive:
-"Google Drive Link"
-
 ## Datasets
 
 You can download darknet weights from my google drive:
-"Google Drive Link"
+
+https://drive.google.com/file/d/1yTxaODCNp-x_tlS8Jwox0BwcXV-JCmNG/view?usp=sharing
+
 Please build the 'Folder Structure' like below.
 
 ```
