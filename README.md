@@ -76,8 +76,7 @@ ${ROOT}
 │   │    ├── folders/
 │   │    └── files
 │   └── coco.names
-
-'''
+```
 
 ## Quick start
 Start with using pretrained weights to test predictions on both image and video:
