@@ -27,7 +27,7 @@ https://drive.google.com/drive/folders/1w4KNO2jIlkyzQgUkkcZ18zrC8A1Nqvwa?usp=sha
 
 ## Pretrained weights
 
-You can download darknet weights from my google drive:
+You can download pretrained weights from my google drive:
 
 https://drive.google.com/drive/folders/1ot7xb7mxwZZfgMn2F4JwXDM8wWb08Kvg?usp=sharing
 
