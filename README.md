@@ -49,6 +49,7 @@ I uploaded weigts for the below models
 - [x] yolo_v4_voc
 - [x] yolo_v4_voc_tiny
 
+
 ## Datasets
 
 You can download darknet weights from my google drive:
@@ -88,6 +89,7 @@ Start with using pretrained weights to test predictions on both image and video:
 ```
 python detect_mnist.py
 python evaluate_mAP.py
+python train.py
 ```
 
 ### fashion mnist:
@@ -100,6 +102,7 @@ python evaluate_mAP.py
 ```
 python detect_mnist.py
 python evaluate_mAP.py
+python train.py
 ```
 
 ### voc:
@@ -114,6 +117,7 @@ python detect_image.py
 python detect_video.py
 python detect_webcam.py
 python evaluate_mAP.py
+python train.py
 ```
 
 ### coco:
@@ -128,6 +132,7 @@ python detect_image.py
 python detect_video.py
 python detect_webcam.py
 python evaluate_mAP.py
+python train.py
 ```
 
 ## Quick training for custom mnist dataset
@@ -259,65 +264,20 @@ ${ROOT}
 │   │    ├── yolo_v3_coco.data-00000-of-00001
 │   │    └── yolo_v3_coco.index
 │   ├── yolo_v3_coco_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v3_coco_tiny.data-00000-of-00001
-│   │    └── yolo_v3_coco_tiny.index
 │   ├── yolo_v3_fashion_mnist/
-│   │    ├── checkpoint
-│   │    ├── yolo_v3_fashion_mnist.data-00000-of-00001
-│   │    └── yolo_v3_fashion_mnist.index
 │   ├── yolo_v3_fashion_mnist_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v3_fashion_mnist_tiny.data-00000-of-00001
-│   │    └── yolo_v3_fashion_mnist_tiny.index
 │   ├── yolo_v3_mnist/
-│   │    ├── checkpoint
-│   │    ├── yolo_v3_mnist.data-00000-of-00001
-│   │    └── yolo_v3_mnist.index
 │   ├── yolo_v3_mnist_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v3_mnist_tiny.data-00000-of-00001
-│   │    └── yolo_v3_mnist_tiny.index
 │   ├── yolo_v3_voc/
-│   │    ├── checkpoint
-│   │    ├── yolo_v3_voc.data-00000-of-00001
-│   │    └── yolo_v3_voc.index
 │   ├── yolo_v3_voc_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v3_voc_tiny.data-00000-of-00001
-│   │    └── yolo_v3_voc_tiny.index
 │   ├── yolo_v4_coco/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_coco.data-00000-of-00001
-│   │    └── yolo_v4_coco.index
 │   ├── yolo_v4_coco_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_coco_tiny.data-00000-of-00001
-│   │    └── yolo_v4_coco_tiny.index
 │   ├── yolo_v4_fashion_mnist/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_fashion_mnist.data-00000-of-00001
-│   │    └── yolo_v4_fashion_mnist.index
 │   ├── yolo_v4_fashion_mnist_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_fashion_mnist_tiny.data-00000-of-00001
-│   │    └── yolo_v4_fashion_mnist_tiny.index
 │   ├── yolo_v4_mnist/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_mnist.data-00000-of-00001
-│   │    └── yolo_v4_mnist.index
 │   ├── yolo_v4_mnist_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_mnist_tiny.data-00000-of-00001
-│   │    └── yolo_v4_mnist_tiny.index
 │   ├── yolo_v4_voc/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_voc.data-00000-of-00001
-│   │    └── yolo_v4_voc.index
-│   ├── yolo_v4_voc_tiny/
-│   │    ├── checkpoint
-│   │    ├── yolo_v4_voc_tiny.data-00000-of-00001
-│         └── yolo_v4_voc_tiny.index
+│   └── yolo_v4_voc_tiny/
 ├── darknet_weights/ 
 │   ├── yolov3.weights
 │   ├── yolov3-tiny.weights
@@ -328,29 +288,28 @@ ${ROOT}
 │   │    ├── folders/
 │   │    └── files
 │   ├── fashion_mnist/
-│   │    ├── folders/
-│   │    └── files
 │   ├── mnist/
-│   │    ├── folders/
-│   │    └── files
 │   ├── voc/
-│   │    ├── folders/
-│   │    └── files
 │   └── coco.names
 ├── IMAGES/
-│   ├── cfg
-│   ├── cfg
-│   ├── cfg
-│   ├── cfg
-│   ├── cfg
-│   ├── cfg
-│   └── cfg
-├── IMAGES/
-├── IMAGES/
-├── pred_IMAGES
-│   ├── cfg
+│   ├── city.jpg
+│   ├── dog.jpg
+│   ├── kite.jpg
+│   ├── street.jpg
+│   ├── Highway.mp4
+│   ├── shinjuku.mp4
+│   └── street.mp4
+├── log/
+├── mAP/
+├── pred_IMAGES/
 ├── config/
-│   ├── cfg
+│   ├── city.jpg
+│   ├── dog.jpg
+│   ├── kite.jpg
+│   ├── street.jpg
+│   ├── Highway.mp4
+│   ├── shinjuku.mp4
+│   └── street.mp4
 ├── config/
 │   ├── cfg/
 │   │    ├── yolo3d_yolov4.cfg
@@ -358,12 +317,4 @@ ${ROOT}
 │   ├── train_config.py
 │   └── kitti_config.py
 '''
-To be continued (not anytime soon)
---------------------
-- [ ] Converting to TensorFlow Lite
-- [ ] YOLO on Android (Leaving it for future, will need to convert everythin to java... not ready for this)
-- [ ] Generating anchors
-- [ ] YOLACT: Real-time Instance Segmentation
-- [ ] Model pruning (Pruning is a technique in deep learning that aids in the development of smaller and more efficient neural networks. It's a model optimization technique that involves eliminating unnecessary values in the weight tensor.)
-... 
 
