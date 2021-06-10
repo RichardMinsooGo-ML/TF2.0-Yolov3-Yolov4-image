@@ -60,7 +60,7 @@ You can download darknet weights from my google drive:
 "Google Drive Link"
 Please build the 'Folder Structure' like below.
 
-'''
+```
 ${ROOT}
 ├── dataset/ 
 │   ├── coco/
@@ -76,6 +76,7 @@ ${ROOT}
 │   │    ├── folders/
 │   │    └── files
 │   └── coco.names
+
 '''
 
 ## Quick start
