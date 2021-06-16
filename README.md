@@ -4,11 +4,15 @@ YOLOv3 and YOLOv4 implementation in TensorFlow 2.x, with support for training, t
 Code was tested with following specs:
 - Code was tested on Windows 10
 
-![demo](./asset/kite_pred.jpg)
 
-![demo](./asset/Pred_city.jpg)
+    - Demonstration 1
+![demo1](./asset/kite_pred.jpg)
 
-![demo](./asset/pred_street.gif)
+    - Demonstration 2
+![demo2](./asset/Pred_city.jpg)
+
+    - Demonstration 3
+![demo3](./asset/pred_street.gif)
 
 ## Installation
 First, clone or download this GitHub repository.
