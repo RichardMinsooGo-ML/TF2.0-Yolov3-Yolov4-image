@@ -5,20 +5,20 @@ Code was tested with following specs:
 - Code was tested on Windows 10
 
 
-### Demonstration 1
+### 0.1. Demonstration 1
 
 ![demo1](./asset/Pred_kite.jpg)
 
-### Demonstration 2
+### 0.2. Demonstration 2
 
 ![demo2](./asset/Pred_city.jpg)
 
-### Demonstration 2
+### 0.3. Demonstration 3
 
 ![demo3](./asset/pred_street.gif)
 
 
-## Installation
+## 1. Installation
 First, clone or download this GitHub repository.
 Install requirements and download from official darknet weights:
 ```
@@ -39,7 +39,7 @@ Or you can download darknet weights from my google drive:
 
 https://drive.google.com/drive/folders/1w4KNO2jIlkyzQgUkkcZ18zrC8A1Nqvwa?usp=sharing
 
-## Pretrained weights
+## 2. Pretrained weights
 
 You can download pretrained weights from my google drive:
 
@@ -109,9 +109,9 @@ python train.py
 ### fashion mnist:
 - Download 'pretrained weights' from links above;
 - In `configuration.py` script choose your `dataset_name = "fashion_mnist"`;
-- In `configuration.py` script choose your `YOLO_TYPE` as 'yolov4' or 'yolov3';
-- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose 'True', this model will generate 'tiny yolo model';
-- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as 'True'
+- In `configuration.py` script choose your `YOLO_TYPE` as `yolov4` or `yolov3`;
+- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose `True`, this model will generate `tiny yolo model`;
+- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
 python detect_mnist.py
@@ -122,9 +122,9 @@ python train.py
 ### voc:
 - Download 'pretrained weights' from links above;
 - In `configuration.py` script choose your `dataset_name = "voc"`;
-- In `configuration.py` script choose your `YOLO_TYPE` as 'yolov4' or 'yolov3';
-- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose 'True', this model will generate 'tiny yolo model';
-- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as 'True'
+- In `configuration.py` script choose your `YOLO_TYPE` as `yolov4` or `yolov3`;
+- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose `True`, this model will generate `tiny yolo model`;
+- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
 python detect_image.py
@@ -137,9 +137,9 @@ python train.py
 ### coco:
 - Download 'pretrained weights' from links above;
 - In `configuration.py` script choose your `dataset_name = "coco"`;
-- In `configuration.py` script choose your `YOLO_TYPE` as 'yolov4' or 'yolov3';
-- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose 'True', this model will generate 'tiny yolo model';
-- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as 'True'
+- In `configuration.py` script choose your `YOLO_TYPE` as `yolov4` or `yolov3`;
+- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose `True`, this model will generate `tiny yolo model`;
+- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
 python detect_image.py
