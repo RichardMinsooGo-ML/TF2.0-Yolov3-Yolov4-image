@@ -5,14 +5,18 @@ Code was tested with following specs:
 - Code was tested on Windows 10
 
 
-    - Demonstration 1
+### Demonstration 1
+
 ![demo1](./asset/kite_pred.jpg)
 
-    - Demonstration 2
+### Demonstration 2
+
 ![demo2](./asset/Pred_city.jpg)
 
-    - Demonstration 3
+### Demonstration 2
+
 ![demo3](./asset/pred_street.gif)
+
 
 ## Installation
 First, clone or download this GitHub repository.
