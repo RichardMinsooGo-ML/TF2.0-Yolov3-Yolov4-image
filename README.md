@@ -7,7 +7,7 @@ Code was tested with following specs:
 
 ### Demonstration 1
 
-![demo1](./asset/kite_pred.jpg)
+![demo1](./asset/Pred_kite.jpg)
 
 ### Demonstration 2
 
