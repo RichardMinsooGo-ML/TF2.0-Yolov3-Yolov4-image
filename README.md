@@ -4,6 +4,12 @@ YOLOv3 and YOLOv4 implementation in TensorFlow 2.x, with support for training, t
 Code was tested with following specs:
 - Code was tested on Windows 10
 
+![demo](./asset/kite_pred.jpg)
+
+![demo](./asset/Pred_city.jpg)
+
+![demo](./asset/pred_street.gif)
+
 ## Installation
 First, clone or download this GitHub repository.
 Install requirements and download from official darknet weights:
