@@ -96,9 +96,9 @@ Start with using pretrained weights to test predictions on both image and video:
 ### minst:
 - Download 'pretrained weights' from links above;
 - In `configuration.py` script choose your `dataset_name = "mnist"`;
-- In `configuration.py` script choose your `YOLO_TYPE` as 'yolov4' or 'yolov3';
-- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose 'True', this model will generate 'tiny yolo model';
-- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as 'True'
+- In `configuration.py` script choose your `YOLO_TYPE` as `yolov4` or `yolov3`;
+- In `configuration.py` script choose your `TRAIN_YOLO_TINY`, if you choose `True`, this model will generate `tiny yolo model`;
+- In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
 python detect_mnist.py
