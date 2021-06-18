@@ -100,9 +100,9 @@ Start with using pretrained weights to test predictions on both image and video:
 - In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
-python detect_mnist.py
-python evaluate_mAP.py
-python train.py
+    $ python detect_mnist.py
+    $ python evaluate_mAP.py
+    $ python train.py
 ```
 
 ### 4.2. fashion mnist:
@@ -113,9 +113,9 @@ python train.py
 - In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
-python detect_mnist.py
-python evaluate_mAP.py
-python train.py
+    $ python detect_mnist.py
+    $ python evaluate_mAP.py
+    $ python train.py
 ```
 
 ### 4.3. voc:
@@ -126,11 +126,11 @@ python train.py
 - In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
-python detect_image.py
-python detect_video.py
-python detect_webcam.py
-python evaluate_mAP.py
-python train.py
+    $ python detect_image.py
+    $ python detect_video.py
+    $ python detect_webcam.py
+    $ python evaluate_mAP.py
+    $ python train.py
 ```
 
 ### 4.4. coco:
@@ -141,11 +141,11 @@ python train.py
 - In `configuration.py` script choose your `YOLO_CUSTOM_WEIGHTS` as `True`;
 
 ```
-python detect_image.py
-python detect_video.py
-python detect_webcam.py
-python evaluate_mAP.py
-python train.py
+    $ python detect_image.py
+    $ python detect_video.py
+    $ python detect_webcam.py
+    $ python evaluate_mAP.py
+    $ python train.py
 ```
 
 ## Folder structure
