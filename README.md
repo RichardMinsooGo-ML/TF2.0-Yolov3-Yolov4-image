@@ -148,7 +148,7 @@ Start with using pretrained weights to test predictions on both image and video:
     $ python train.py
 ```
 
-## Folder structure
+## 5. Folder structure
 
 ```
 ${ROOT}
